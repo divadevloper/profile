@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+#small-container{
+    width: 50%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    height: 60vh;
+    border-radius: 5px;
+}
+#btnss{
+    position: relative;
+    display: flex;
+    top: 160px;
+    justify-content: space-between;
+}
+#btnss button{
+outline: 0;
+cursor: pointer;
+background: 0;
+border: 0;
+}
+#btnss i{
+    font-size: 22px;
+    /* background-color: rgb(81, 77, 77); */
+    color: black;
+}
